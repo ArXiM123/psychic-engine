@@ -1,0 +1,40 @@
+{
+  "id": "klass-eger",
+  "title": "Класс: Егерь",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "laaru-dnd5-hw",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Данный модуль добавляет класс \"Егерь\" из Steinhardt's Guide to the Eldritch Hunt.",
+  "authors": [
+    {
+      "name": "Даня and Даня",
+      "url": "https://boosty.to/nadaniel-trpg",
+      "discord": "nadaniel2296 and lonrion",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Класс: \"Егерь\" и его Особенности",
+      "path": "packs/pack-1",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
+}
